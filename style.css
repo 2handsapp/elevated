@@ -3,3 +3,7 @@
 .socials{margin:0 0 25px}footer{margin-top:28px}footer p{margin:0;letter-spacing:.02em}.business{width:100%;text-align:left;font-family:inherit;opacity:1;cursor:default;background:#e7eee5;box-shadow:0 4px 0 #a8b9aa}.business:hover{transform:none;box-shadow:0 4px 0 #a8b9aa}.business .coming{margin-left:auto;max-width:46px;color:#53674f;font-size:.65rem;line-height:1.4;font-weight:400;text-align:right}
 
 .shade{opacity:0;transition:opacity 1.5s}.backdrop.video-active .shade{opacity:1}h1{max-width:400px;margin-inline:auto;text-wrap:balance}
+
+@media(prefers-reduced-motion:reduce){.backdrop video.user-motion{display:block}}
+
+
