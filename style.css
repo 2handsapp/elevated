@@ -7,3 +7,7 @@
 @media(prefers-reduced-motion:reduce){.backdrop video.user-motion{display:block}}
 
 
+.motion-toggle{top:calc(12px + env(safe-area-inset-top,0px));right:calc(12px + env(safe-area-inset-right,0px));bottom:auto;width:44px;height:44px;padding:12px;display:grid;place-items:center;background:rgba(9,50,34,.38);border:1px solid rgba(232,244,232,.25);border-radius:50%;color:#e8f4e8}.motion-toggle svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.motion-toggle:hover{background:rgba(9,50,34,.75)}
+
+.arrow{display:grid;place-items:center;flex-shrink:0}.arrow svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+

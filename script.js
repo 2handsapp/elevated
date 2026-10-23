@@ -12,7 +12,9 @@
   video.classList.toggle('ready',playing);
   video.parentElement.classList.toggle('video-active',playing);
   toggle.hidden=false;
-  toggle.textContent=playing?'Pause background':'Play background';
+  toggle.innerHTML=playing?'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z"/></svg>';
+  toggle.setAttribute('aria-label',playing?'Pause background':'Play background');
+  toggle.title=playing?'Pause background':'Play background';
   toggle.setAttribute('aria-pressed',String(playing));
  }
  function pause(){playing=false;video.pause();render()}
